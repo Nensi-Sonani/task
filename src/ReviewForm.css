@@ -1,0 +1,36 @@
+.head-name{
+    width: 90%;
+    height: 50px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid #000000;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.main-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.review-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviewform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
