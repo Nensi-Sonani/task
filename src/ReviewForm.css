@@ -2,13 +2,14 @@
     width: 90%;
     height: 50px;
     margin: 10px 0;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: transparent;
-    border: 2px solid #000000;
+    border: 5px solid rgba(197, 165, 244, 0.733);
     text-align: center;
     line-height: 50px;
     font-size: 20px;
     font-weight: 700;
+    color: rgb(80, 1, 112);
 }
 
 .main-head {
@@ -26,6 +27,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .reviewform{
@@ -33,4 +35,35 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: rgba(197, 165, 244, 0.733);
+    margin: 40px 500px;
+    padding: 50px 0;
+    text-align: start;
+    border-radius: 20px;
+}
+
+label{
+    font-size: 20px;
+    color: rgb(80, 1, 112);
+}
+
+input{
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.review{
+    width: 400px;
+    height: 125px;
+    background-color: rgba(197, 165, 244, 0.733);
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+span{
+    padding-left: 10px;
+    font-size: 20px;
 }
